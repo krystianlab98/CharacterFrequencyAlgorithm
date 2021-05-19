@@ -105,7 +105,7 @@ public class TotalResultController {
         }
     }
     //Getting all results from db as String
-    @GetMapping("/results/json")
+    @GetMapping("/results/text")
     public ResponseEntity<String> getResultsAsText(){
         try {
             String results = totalResultService.findAllAsText();
