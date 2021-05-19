@@ -33,6 +33,20 @@ Return the result from file as text or json:
 Return result from the database by finding key in sentence or set of char.
 Return all result from db.
 
+http://localhost:8080/globalLogic/results/text/{key} eg. http://localhost:8080/globalLogic/results/text/love
+
+http://localhost:8080/globalLogic/results/json/{key} eg. http://localhost:8080/globalLogic/results/json/love
+
+Showing all results with specific key (record inserted twice to show search )
+
+![AAAA](https://user-images.githubusercontent.com/47393338/118740145-687ccf00-b84b-11eb-9075-91f1b68547fc.png)
+
+
+![AAAA](https://user-images.githubusercontent.com/47393338/118739908-e12f5b80-b84a-11eb-8b37-263136effff2.png)
+
+
+
+
 
 
 
